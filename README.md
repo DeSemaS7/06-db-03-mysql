@@ -60,5 +60,14 @@ SHOW PROFILES;
 
 ### Задача 4
 
+[mysqld]
+innodb_file_per_table
+innodb-compression-level = 9
+innodb-flush-method = O_DSYNC
+innodb-io-capacity = 2000
+innodb-io-capacity-max = 2500
+innodb_log_file_size = 100M
+innodb_buffer_pool_size = 4G
+
 
  
