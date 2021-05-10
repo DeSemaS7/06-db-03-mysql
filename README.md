@@ -61,13 +61,13 @@ SHOW PROFILES;
 ### Задача 4
 
 [mysqld]
-innodb_file_per_table
-innodb-compression-level = 9
-innodb-flush-method = O_DSYNC
-innodb-io-capacity = 2000
-innodb-io-capacity-max = 2500
-innodb_log_file_size = 100M
-innodb_buffer_pool_size = 4G
+<br>innodb_file_per_table
+<br>innodb-compression-level = 9
+<br>innodb-flush-method = O_DSYNC
+<br>innodb-io-capacity = 2000
+<br>innodb-io-capacity-max = 2500
+<br>innodb_log_file_size = 100M
+<br>innodb_buffer_pool_size = 4G
 
 
  
